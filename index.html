@@ -14,9 +14,28 @@
   <script type="text/javascript" src="node_modules/mux.js/dist/mux.js"></script>
 </head>
 <body>
+  <div id='online-signal' style='width:640px;text-align:center'></div>
+  <div>
+    <div>
+      <span style="width:120px;display:inline-block">Asset Name</span>
+      <input id="asset-title-input" type="text" style="width:500px" value="Star Trek: Angel One">
+    </div>
+    <div>
+      <span style="width:120px;display:inline-block">Asset Manifest</span>
+      <input id="asset-uri-input" type="text" style="width:500px" value="https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8">
+    </div>
+  </div>
+
+  <div>
+    <span><progress id="progress-bar" value="0" max="100"></span>
+    <span><button id="download-button">Download</button></span>
+  </div>
+
   <video id="video"
-  width="640"
-  poster="//shaka-player-demo.appspot.com/assets/poster.jpg"
-  controls autoplay></video>
+         width="640"
+         poster="//shaka-player-demo.appspot.com/assets/poster.jpg"
+         controls autoplay></video>
+
+  <table id="content-table" style="width:640px"></table>
 </body>
 </html>

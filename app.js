@@ -1,6 +1,7 @@
 var manifestUri =
     'https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8';
 
+    
 // myapp.js
 
 function initApp() {
@@ -55,7 +56,6 @@ function onError(error) {
   console.error('Error code', error.code, 'object', error);
 }
 
-<<<<<<< HEAD
 function selectTracks(tracks) {
   // Store the highest bandwidth variant.
   var found = tracks
@@ -213,6 +213,3 @@ function createButton(text, action) {
 }
 
 document.addEventListener('DOMContentLoaded', initApp);
-=======
-document.addEventListener('DOMContentLoaded', initApp);
->>>>>>> b1e3b77cd5c9846e6b68c5938f664a5747cc8791

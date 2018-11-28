@@ -1,5 +1,5 @@
 var manifestUri =
-    'https://s3-ap-southeast-1.amazonaws.com/vdyoencoded/video/cooptv/4_5bada15b3fb22/play.m3u8';
+    'https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8';
 
 function initApp() {
   // Install built-in polyfills to patch browser incompatibilities.
